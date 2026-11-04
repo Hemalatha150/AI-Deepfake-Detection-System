@@ -1,0 +1,18 @@
+{
+  "arch": "efficientnet",
+  "img_size": 224,
+  "threshold": 0.8,
+  "gradcam_layer": "top_activation",
+  "class_names": [
+    "real",
+    "fake"
+  ],
+  "trained_at": "2026-11-03T17:28:55",
+  "data_dir": "data\\scenes",
+  "train_images": 17270,
+  "val_images": 2400,
+  "best_val_auc": 0.8637208938598633,
+  "val_accuracy": 0.78625,
+  "balanced_threshold": 0.3627251088619232,
+  "threshold_note": "Operating point chosen for a low false-alarm rate on real photos of people (FFHQ 1.8%, LFW 0%, IMDB-WIKI 5.6% on the test split); the scene model only overrides the face model when it is very confident."
+}

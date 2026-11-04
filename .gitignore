@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.sf/
+
+# Datasets and downloads (several GB) - recreate with download_dataset.py / prepare_modern_data.py
+data/
+*.part
+*.parquet
+
+# Logs
+*.log
+
+# Old model versions and reports (only the final models are published)
+models/*_v1.*
+models/*_v3.*
+models/*robust*
+reports_v1/

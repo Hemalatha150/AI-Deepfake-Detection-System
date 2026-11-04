@@ -1,0 +1,16 @@
+{
+  "arch": "efficientnet",
+  "img_size": 224,
+  "threshold": 0.8446545600891113,
+  "gradcam_layer": "top_activation",
+  "class_names": [
+    "real",
+    "fake"
+  ],
+  "trained_at": "2026-11-03T14:04:32",
+  "data_dir": "D:\\deepfake\\data\\faces",
+  "train_images": 22667,
+  "val_images": 4000,
+  "best_val_auc": 0.9931950569152832,
+  "val_accuracy": 0.962
+}

@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+    Original     0.9625    0.9650    0.9638      6339
+    Deepfake     0.9555    0.9524    0.9539      5000
+
+    accuracy                         0.9594     11339
+   macro avg     0.9590    0.9587    0.9588     11339
+weighted avg     0.9594    0.9594    0.9594     11339

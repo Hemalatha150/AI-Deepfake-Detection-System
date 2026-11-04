@@ -1,0 +1,14 @@
+tensorflow>=2.16
+keras>=3.0
+opencv-python>=4.8
+mtcnn>=1.0
+lz4
+dlib-bin>=19.24        # prebuilt dlib wheels; or `pip install dlib` if you have CMake + a C++ compiler
+streamlit>=1.40
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+pyarrow
+tqdm
